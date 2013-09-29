@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="Show Content" />
+    
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000" />
+    
+       <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+        <EditText
+         	android:id="@+id/et"
+        	android:layout_width="fill_parent"
+        	android:layout_height="30dp"
+        	android:background="#EEEEEE"
+        	android:textColor="#000000"
+        	android:text="Input here" />
+
+        <Button
+            android:id="@+id/b_send"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+   	 	<Button
+        	android:id="@+id/b_test1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Test1" />
+
+    	<Button
+        	android:id="@+id/b_test2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="Test2" />
+        
+    </LinearLayout>
+
+</LinearLayout>
